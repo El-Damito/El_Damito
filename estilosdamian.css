@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: BGcolorChanging 6s linear infinite alternate both;
+}
+
+@keyframes BGcolorChanging {
+    0% {
+        background: #00bbff;
+    }
+    33.3333% {
+        background: #00d8bf;
+    }
+    66.6666% {
+        background: #b7ef6e;
+    }
+    100% {
+        background: #fff7b2;
+
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
